@@ -26,6 +26,7 @@ import more from './more.png'
 import network from './network.png'
 import north from './north.png'
 import notification from './notification.png'
+import photo from './photo.png'
 import post1 from './post-image-1.png'
 import post2 from './post-image-2.png'
 import post3 from './post-image-3.png'
@@ -76,6 +77,7 @@ export {
 	network,
 	north,
 	notification,
+	photo,
 	post1,
 	post2,
 	post3,

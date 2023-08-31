@@ -34,7 +34,7 @@
 }
 .nav-links .nav-link a::after {
 	content: '';
-	width: 0; 
+	width: 0;
 	height: 2px;
 	background: #045be6;
 	position: absolute;
@@ -109,14 +109,16 @@
 	margin: 10px;
 }
 .profile-dropdown-menu.active {
-	max-height: 350px; height: auto;
+	max-height: 350px;
+	height: auto;
 }
 .user-info {
 	display: flex;
 	align-items: center;
 }
 .user-info img {
-	width: 50px; height: auto;
+	width: 50px;
+	height: auto;
 	border-radius: 50%;
 	margin-right: 15px;
 }
@@ -143,10 +145,12 @@
 	font-size: 12px;
 }
 .profile-menu-link p {
-	width: 100%; height: auto;
+	width: 100%;
+	height: auto;
 }
 .profile-menu-link img {
-	width: 35px; height: auto;
+	width: 35px;
+	height: auto;
 	margin-right: 15px;
 	border-radius: 35px;
 }
@@ -168,11 +172,16 @@
 .sidebar-profile-box {
 	background: #fff;
 }
+.sidebar-profile-box .cover {
+	width: 100%;
+	height: auto;
+}
 .sidebar-profile-info {
 	padding: 0 25px;
 }
 .sidebar-profile-info img {
 	width: 90px;
+	height: auto;
 	border-radius: 50%;
 	background: #fff;
 	padding: 4px;
@@ -193,6 +202,7 @@
 }
 .sidebar-profile-info ul li {
 	width: 100%;
+	height: auto;
 	margin: 5px 0;
 	font-size: 13px;
 }
@@ -219,6 +229,7 @@
 }
 .sidebar-profile-link img {
 	width: 20px;
+	height: auto;
 	margin-right: 10px;
 }
 .sidebar-activity {
@@ -242,6 +253,7 @@
 }
 .sidebar-activity a img {
 	width: 20px;
+	height: auto;
 	margin-right: 10px;
 }
 .discover-more-link {
@@ -269,6 +281,7 @@
 }
 .info-icon {
 	width: 25px;
+	height: auto;
 	float: right;
 	margin-top: 15px;
 }
@@ -303,6 +316,7 @@
 .sidebar-ads img {
 	display: inline-block;
 	width: 60px;
+	height: auto;
 	border-radius: 50%;
 }
 .sidebar-ads small {
@@ -346,6 +360,7 @@
 }
 .copyright-msg img {
 	width: 18px;
+	height: auto;
 	margin-right: 4px;
 }
 
@@ -363,6 +378,7 @@
 }
 .create-post-input img {
 	width: 35px;
+	height: auto;
 	border-radius: 50%;
 	margin-right: 10px;
 }
@@ -395,6 +411,7 @@
 }
 .create-post-links li img {
 	width: 15px;
+	height: auto;
 	margin-right: 5px;
 }
 .create-post-links li:last-child {
@@ -423,6 +440,7 @@
 .sort-by p span img {
 	display: inline-block;
 	width: 12px;
+	height: auto;
 	margin-left: 3px;
 }
 .post {
@@ -437,6 +455,7 @@
 }
 .post-author img {
 	width: 35px;
+	height: auto;
 	border-radius: 50%;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -454,6 +473,10 @@
 	font-size: 14px;
 	margin-bottom: 15px;
 }
+.post .post-image{
+    width: auto;
+    height: auto;
+}
 .post-stats {
 	display: flex;
 	flex-wrap: wrap;
@@ -470,6 +493,7 @@
 .post-stats img {
 	display: inline-block;
 	width: 15px;
+	height: auto;
 	margin-right: -5px;
 }
 .liked-users {
@@ -490,14 +514,16 @@
 }
 .post-activity-user-icon {
 	width: 22px;
+	height: auto;
 	border-radius: 50%;
 }
 .post-activity-arrow-icon {
-	width: 12px;
+	width: 12px; height: auto;
 	margin-left: 5px;
 }
 .post-activity-link img {
 	width: 18px;
+	height: auto;
 	margin-right: 8px;
 }
 #showMoreLink {

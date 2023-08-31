@@ -20,7 +20,7 @@ type Props = {}
 
 const Navbar = (props: Props) => {
     const [openMenu, setOpenMenu] = useState(false)
-    console.log(openMenu)
+    
 
 	return (
 		<nav className='navbar'>

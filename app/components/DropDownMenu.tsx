@@ -1,5 +1,6 @@
 import { display, feedback, help, logout, setting, user1 } from '@/public/images'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {
   openMenu: boolean
@@ -13,7 +14,7 @@ const DropDownMenu = ({ openMenu}: Props) => {
             <Image src={user1} alt="user"/>
             <div>
                 <h3>Rayan Walton</h3>
-                <a href="profile.html">See your profile</a>
+                <Link href="/profile">See your profile</Link>
             </div>
         </div>
         <hr/>
