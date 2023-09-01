@@ -13,7 +13,7 @@ const DropDownMenu = ({ openMenu}: Props) => {
             <Image src={user1} alt="user"/>
             <div>
                 <h3>Rayan Walton</h3>
-                <a href="profile.html">See your profile</a>
+                <a href="/profile">See your profile</a>
             </div>
         </div>
         <hr/>

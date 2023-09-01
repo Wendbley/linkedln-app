@@ -18,10 +18,14 @@ import Link from 'next/link'
 
 type Props = {}
 
+/**
+ * 
+ * @param props 
+ * @returns 
+ */
 const Navbar = (props: Props) => {
     const [openMenu, setOpenMenu] = useState(false)
-    console.log(openMenu)
-
+   
 	return (
 		<nav className='navbar'>
 			<div className='nav-left'>

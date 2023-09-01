@@ -168,11 +168,15 @@
 .sidebar-profile-box {
 	background: #fff;
 }
+.sidebar-profile-box .cover{
+	width: 100%;
+	height: auto;
+}
 .sidebar-profile-info {
 	padding: 0 25px;
 }
 .sidebar-profile-info img {
-	width: 90px;
+	width: 90px; height: auto;
 	border-radius: 50%;
 	background: #fff;
 	padding: 4px;
@@ -192,7 +196,7 @@
 	margin: 20px 0;
 }
 .sidebar-profile-info ul li {
-	width: 100%;
+	width: 100%; height: auto;
 	margin: 5px 0;
 	font-size: 13px;
 }
@@ -218,7 +222,7 @@
 	border-left: 0;
 }
 .sidebar-profile-link img {
-	width: 20px;
+	width: 20px; height: auto;
 	margin-right: 10px;
 }
 .sidebar-activity {
@@ -241,7 +245,7 @@
 	margin: 3px 0;
 }
 .sidebar-activity a img {
-	width: 20px;
+	width: 20px; height: auto;
 	margin-right: 10px;
 }
 .discover-more-link {
@@ -268,7 +272,7 @@
 	padding: 10px 25px;
 }
 .info-icon {
-	width: 25px;
+	width: 25px; height: auto;
 	float: right;
 	margin-top: 15px;
 }
@@ -302,7 +306,7 @@
 }
 .sidebar-ads img {
 	display: inline-block;
-	width: 60px;
+	width: 60px; height: auto;
 	border-radius: 50%;
 }
 .sidebar-ads small {
@@ -345,7 +349,7 @@
 	font-weight: 500;
 }
 .copyright-msg img {
-	width: 18px;
+	width: 18px; height: auto;
 	margin-right: 4px;
 }
 
@@ -362,7 +366,7 @@
 	align-items: flex-start;
 }
 .create-post-input img {
-	width: 35px;
+	width: 35px; height: auto;
 	border-radius: 50%;
 	margin-right: 10px;
 }
@@ -394,7 +398,7 @@
 	cursor: pointer;
 }
 .create-post-links li img {
-	width: 15px;
+	width: 15px; height: auto;
 	margin-right: 5px;
 }
 .create-post-links li:last-child {
@@ -422,7 +426,7 @@
 }
 .sort-by p span img {
 	display: inline-block;
-	width: 12px;
+	width: 12px; height: auto;;
 	margin-left: 3px;
 }
 .post {
@@ -436,7 +440,7 @@
 	margin-bottom: 20px;
 }
 .post-author img {
-	width: 35px;
+	width: 35px; height: auto;
 	border-radius: 50%;
 	margin-right: 10px;
 	margin-top: 5px;
@@ -449,6 +453,10 @@
 .post-author small {
 	display: block;
 	margin-bottom: -2px;
+}
+.post-image{
+	width: 100%;
+	height: auto;
 }
 .post p {
 	font-size: 14px;
@@ -469,7 +477,7 @@
 }
 .post-stats img {
 	display: inline-block;
-	width: 15px;
+	width: 15px; height: auto;
 	margin-right: -5px;
 }
 .liked-users {
@@ -489,15 +497,15 @@
 	align-items: center;
 }
 .post-activity-user-icon {
-	width: 22px;
+	width: 22px; height: auto;
 	border-radius: 50%;
 }
 .post-activity-arrow-icon {
-	width: 12px;
+	width: 12px; height: auto;
 	margin-left: 5px;
 }
 .post-activity-link img {
-	width: 18px;
+	width: 18px; height: auto;
 	margin-right: 8px;
 }
 #showMoreLink {

@@ -6,6 +6,11 @@ import React from 'react'
 
 type Props = {}
 
+/**
+ * 
+ * @param props 
+ * @returns 
+ */
 const ProfileDesc = (props: Props) => {
 	return (
 		<div className='profile-description'>
