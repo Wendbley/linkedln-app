@@ -1,5 +1,6 @@
 import { StaticImageData } from 'next/image'
 import Image from 'next/image'
+import parse from 'html-react-parser'
 
 type Props = {
 	title: string
@@ -15,10 +16,10 @@ const ProfileRow = ({ title, company, elapsed, text, firm }: Props) => {
 			<Image src={firm} alt='firm' />
 			<div>
 				<h3>{title}</h3>
-				<b>{company}</b>
+				<b>{ parse(company)}</b>
 				<b>{elapsed}</b>
-				<p>{text}</p>
-				<hr />
+				<p>{ text }</p>
+				{title !== 'Web Developer' && <hr />}
 			</div>
 		</div>
 	)
